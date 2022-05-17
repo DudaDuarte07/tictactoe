@@ -45,11 +45,6 @@ class Board:
         self.marked_sqrs = 0
 
     def final_state(self, show=False):
-        '''
-            @return 0 if there is no win yet
-            @return 1 if player 1 wins
-            @return 2 if player 2 wins
-        '''
 
         # VITÓRIA NA VERTICAL
         for col in range(COLUNAS):
